@@ -15,7 +15,7 @@ The **Notion Citation Updater** is a Python script designed to automate the proc
 <br />
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
+  <a href="https://github.com/Vincia-Jun/Notion-Citation-Updater/">
     <img src="images/logo.png" alt="Logo" width="546" height="235">
   </a>
 </p>
@@ -34,9 +34,23 @@ The **Notion Citation Updater** is a Python script designed to automate the proc
 - **Step2:** Copy the "Internal Integration Secret", which will be used in Python to access the database.
 - **Step3:** Navigate to the database you want your integration to interact with. Connect this page to your previously created integration by clicking the "..." menu in the top-right corner of the page.
 
-Hence, your integration now has access to your dataset/page. You can use Python to interact with this database, performing actions like updating existing entries or creating new pages.
+Hence, your integration now has access to your dataset/page. You can use Python to interact with this database, performing actions like updating existing entries or creating new pages. For database access and modification operations, refer to the [notion_demo.ipynb](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/notion_demo.ipynb) file. It showcases how to use Python to update the "**Citations**" property value for all pages—for instance, setting it to 99:
+![notion_demo](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/images/notion_demo.gif)
 
+## 🔎 scholarly module
+**scholarly** is a module that allows you to retrieve author and publication information from Google Scholar in a friendly, Pythonic way without having to solve CAPTCHAs. Here we simply use the following function to retrieve paper information from Google Scholar:
+```python
+search_query = scholarly.search_single_pub('attention is all you need')
+```
 
+You can find the output in the [scholarly_demo.ipynb](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/scholarly_demo.ipynb) file. For more information and a demonstration, please refer to the official repository [scholarly-python-package](https://github.com/scholarly-python-package/scholarly).
+
+## 🚩Quick Start
+Make sure you've completed the **Notion Integration** setup and configured **scholarly** as described above. Once done, check your **personal parameters** ( :red_circle: e.g., database_id, integration_token, etc.) in [paperbot_pool.py]. Then, simply run:
+```bash
+python paperbot_pool.py
+```
+Alternatively, you can choose to run the [paperbot_base.py] file, though it will be slower than [paperbot_pool.py], as [paperbot_pool.py] incorporates multithreading for faster processing, while [paperbot_base.py] processes tasks in a single thread.
 
 <!-- links -->
 [your-project-path]:Vincia-Jun/Notion-Citation-Updater
