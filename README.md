@@ -61,11 +61,11 @@ Special thanks to Zhihu user [ZZZzzz](https://www.zhihu.com/people/kun-peng-jie-
 
 <!-- links -->
 [your-project-path]:Vincia-Jun/Notion-Citation-Updater
-[contributors-shield]: https://img.shields.io/github/contributors/Vincia-Jun/Notion-Citation-Updater.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/Vincia-Jun/Notion-Citation-Updater?style=flat-square
 [contributors-url]: https://github.com/Vincia-Jun/Notion-Citation-Updater/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Vincia-Jun/Notion-Citation-Updater.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/Vincia-Jun/Notion-Citation-Updater?style=flat-square
 [forks-url]: https://github.com/Vincia-Jun/Notion-Citation-Updater/network/members
-[stars-shield]: https://img.shields.io/github/stars/Vincia-Jun/Notion-Citation-Updater.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/Vincia-Jun/Notion-Citation-Updater?style=flat-square
 [stars-url]: https://github.com/Vincia-Jun/Notion-Citation-Updater/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Vincia-Jun/Notion-Citation-Updater.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/Vincia-Jun/Notion-Citation-Updater.svg
+[issues-shield]: https://img.shields.io/github/issues/Vincia-Jun/Notion-Citation-Updater?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/Vincia-Jun/Notion-Citation-Updater
