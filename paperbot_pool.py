@@ -40,10 +40,10 @@ def update_notion_page(page, headers):
 
 
 if __name__ == "__main__":
-    database_id = r"12c20aff303480939da8e7c060e079d3"
+    database_id = r"939da8e7c0e78e7c070e78e7c07"
     url = f"https://api.notion.com/v1/databases/{database_id}/query"
 
-    Integration_token = r'ntn_M877443077242JBENHLM9RPpcTyDuUwSXNCnYZvLuIEeeW'
+    Integration_token = r'M9RPpcTyDuUwSXNcTywSXNCPpc77LM9RPpcTyDuUwSXNcTyDuUwSXNC'
     headers = {
         "Authorization": "Bearer %s" % (Integration_token),
         "Content-Type": "application/json",
