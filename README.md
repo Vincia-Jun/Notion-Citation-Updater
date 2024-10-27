@@ -20,6 +20,8 @@ The **Notion Citation Updater** is a Python script designed to automate the proc
   </a>
 </p>
 
+![paperbot_demo](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/images/paperbot_demo.gif)
+
 ## 📖 Introduction
 I use a **Notion database** (tempelate refer to [paper_notion](https://frosted-hacksaw-782.notion.site/81473a1176454a17916de88f22fe79bd?v=ec80ed4fd3b248efbb2c23a8055ef268)) as my literature management tool. However, it can't update citation counts for articles in real time. Therefore, I aim to use Python to implement real-time updates of citation counts.
 
@@ -46,11 +48,16 @@ search_query = scholarly.search_single_pub('attention is all you need')
 You can find the output in the [scholarly_demo.ipynb](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/scholarly_demo.ipynb) file. For more information and a demonstration, please refer to the official repository [scholarly-python-package](https://github.com/scholarly-python-package/scholarly).
 
 ## 🚩Quick Start
-Make sure you've completed the **Notion Integration** setup and configured **scholarly** as described above. Once done, check your **personal parameters** ( :red_circle: e.g., database_id, integration_token, etc.) in [paperbot_pool.py]. Then, simply run:
+Make sure you've completed the **Notion Integration** setup and configured **scholarly** as described above. Once done, check your **personal parameters** ( :red_circle: e.g., database_id, integration_token, etc.) in [**paperbot_pool.py**](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/paperbot_pool.py). Then, simply run:
 ```bash
 python paperbot_pool.py
 ```
-Alternatively, you can choose to run the [paperbot_base.py] file, though it will be slower than [paperbot_pool.py], as [paperbot_pool.py] incorporates multithreading for faster processing, while [paperbot_base.py] processes tasks in a single thread.
+Alternatively, you can choose to run the [paperbot_base.py](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/paperbot_base.py) file, though it will be slower than [**paperbot_pool.py**](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/paperbot_pool.py), as [**paperbot_pool.py**](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/paperbot_pool.py) incorporates multithreading for faster processing, while [paperbot_base.py](https://github.com/Vincia-Jun/Notion-Citation-Updater/blob/main/paperbot_base.py) processes tasks in a single thread.
+
+## 🤝 Acknowledgement
+This repository provides a simple example workflow for using **Notion** with **Python**. You can easily adapt this code to any scenario in Notion that requires bulk data updates.
+
+Special thanks to Zhihu user [ZZZzzz](https://www.zhihu.com/people/kun-peng-jie-jie) for sharing her Notion-based literature management template. Building on her work, I've further enhanced the efficiency of Notion-based literature management. I hope this brings added convenience to users who rely on Notion for managing their references. If you find this helpful, please feel free to give it a **star**⭐! Wishing you all the best!
 
 <!-- links -->
 [your-project-path]:Vincia-Jun/Notion-Citation-Updater
